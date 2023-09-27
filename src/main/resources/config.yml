@@ -1,0 +1,34 @@
+LICENSE: ""
+
+MESSAGES:
+  USAGE: "&cUsage: {usage}"
+  NO-PERMISSION: "&cNo permissions."
+  ONLY-PLAYERS: "&cNo permissions."
+  JOINED-QUEUE: "&aJoined queue for {queue}"
+  LEFT-QUEUE: "&cYou left the {queue} queue"
+  KICKED-QUEUE: "&cYou kicked {player} out of the queue."
+  CLOSED-QUEUE: "&cQueue has been closed."
+  OPENED-QUEUE: "&cQueue has been opened."
+  UNPAUSED-QUEUE: "&cQueue has been unpaused."
+  PAUSED-QUEUE: "&cQueue has been paused."
+  ALREADY-IN-QUEUE: "&cThis player is already in a queue."
+  QUEUE-NOT-FOUND: "&cThis queue is not found."
+  NOT-IN-QUEUE: "&cYou are not in a queue."
+  ALREADY-PAUSED: "&cThis queue is already paused."
+  ALREADY-UNPAUSED: "&cThis queue is already paused."
+  ALREADY-OPEN: "&cThis queue is already open."
+  ALREADY-CLOSED: "&cThis queue is already closed."
+  QUEUE-CLOSED: "&cThis queue is closed."
+  POSITION-MESSAGE:
+    - "&eYou are position &a#{position} &ein the &6&l{queue}&e."
+    - "&7Purchase a rank at store.nqueue.com to to get a higher queue priority."
+
+POS-MESSAGE-TIME: 5
+
+PRIORITY:
+  MVP:
+    PERMISSION: "nqueue.high"
+    PRIORITY: 1
+  VIP:
+    PERMISSION: "nqueue.low"
+    PRIORITY: 2

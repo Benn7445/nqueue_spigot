@@ -1,0 +1,15 @@
+name: NQueue
+version: 1.1.1
+main: me.absurd.nqueue.NQueue
+author: Quartz
+loadbefore:
+  - NHub
+commands:
+  joinqueue:
+  leavequeue:
+  pausequeue:
+  unpausequeue:
+  kickqueue:
+  openqueue:
+  closequeue:
+  nqueue:

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="nQueue-nonobf:jar">
+    <output-path>$USER_HOME$/Desktop/nQueue Obf</output-path>
+    <root id="archive" name="nQueue-nonobf.jar">
+      <element id="module-output" name="nQueue Spigot" />
+    </root>
+  </artifact>
+</component>
